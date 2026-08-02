@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.ultromics.com/
+url: https://trust.ultromics.com/
+name: Ultromics Trust Centre
+certifications:
+  - ISO/IEC 27001:2022
+  - ISO 13485:2016
+  - HIPAA
+  - GDPR
+  - NHS DSPT
+security_contact: security@ultromics.com
+documents:
+  - ISO 13485:2016 compliance documentation
+  - ISO/IEC 27001:2022 compliance documentation
+  - HIPAA Report
+  - Pentest Report
+notes: >-
+  Ultromics operates a hosted Trust Centre at trust.ultromics.com covering
+  cyber security and patient safety risk management, access control and
+  single sign-on, incident response, business continuity, continuous
+  monitoring, and employee security awareness training. Several detailed
+  security practice documents are gated (available upon request). No formal
+  public vulnerability disclosure policy is published on the Trust Centre.
+evidence:
+  - source: https://trust.ultromics.com/
+    keywords: [iso 27001, iso 13485, hipaa, gdpr, nhs dspt, trust centre]

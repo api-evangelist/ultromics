@@ -1,8 +1,26 @@
 aid: ultromics
 name: Ultromics
-description: 'Ultromics is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Ultromics is a UK-based clinical AI company, spun out of the University of
+  Oxford and backed by GV, whose EchoGo platform applies FDA 510(k)-cleared
+  AI to routine echocardiograms to help clinicians detect heart failure with
+  preserved ejection fraction (HFpEF) and cardiac amyloidosis. EchoGo
+  integrates into existing hospital echo workflows and PACS environments,
+  delivering results through clinical systems rather than a public developer
+  API.
 url: https://raw.githubusercontent.com/api-evangelist/ultromics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ultromics.com/hubfs/raw_assets/public/ultromics-2026/images/social-share.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,16 +29,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- AI
+- Healthcare
+- Cardiology
+- Echocardiography
+- Medical Imaging
+- Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 common:
 - type: Website
-  url: http://ultromics.com
+  url: https://www.ultromics.com/
+- type: Blog
+  url: https://www.ultromics.com/press-releases
+- type: Support
+  url: https://ultromics.haloitsm.com/auth/Account/Login
+- type: PrivacyPolicy
+  url: https://www.ultromics.com/privacy-notice
+- type: GitHubOrganization
+  url: https://github.com/ultromics
+- type: TrustCenter
+  url: security/ultromics-trust-center.yml
+- type: Compliance
+  url: https://trust.ultromics.com/
+- type: Conformance
+  url: conformance/ultromics-conformance.yml
+- type: DomainSecurity
+  url: security/ultromics-domain-security.yml
+- type: LLMsTxt
+  url: llms/ultromics-llms.txt

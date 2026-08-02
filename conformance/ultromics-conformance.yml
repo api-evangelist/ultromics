@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.ultromics.com/
+standards:
+  - id: iso-27001
+    conforms: true
+    evidence: ISO/IEC 27001:2022 certification listed on https://trust.ultromics.com/
+  - id: iso-13485
+    conforms: true
+    evidence: ISO 13485:2016 (medical devices quality management) certification listed on https://trust.ultromics.com/
+  - id: hipaa
+    conforms: true
+    evidence: HIPAA compliance report listed on https://trust.ultromics.com/
+  - id: gdpr
+    conforms: true
+    evidence: GDPR compliance stated on https://trust.ultromics.com/
+  - id: nhs-dspt
+    conforms: true
+    evidence: NHS Data Security and Protection Toolkit listed on https://trust.ultromics.com/
+  - id: fda-510k
+    conforms: true
+    evidence: EchoGo Heart Failure and EchoGo Amyloidosis are FDA 510(k) cleared per https://www.ultromics.com/
+notes: >-
+  Ultromics is a clinical AI provider (EchoGo) whose compliance posture is
+  regulatory and healthcare-focused; it publishes no public API, so
+  API-protocol conformance (OAuth2, OIDC, FHIR, SCIM, JSON:API, RFC 9457)
+  is not assessable from a public surface.

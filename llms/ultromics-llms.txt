@@ -1,0 +1,24 @@
+# Ultromics
+
+> Ultromics is a UK-based clinical AI company (GV-backed, Oxford spin-out) whose EchoGo platform applies FDA 510(k)-cleared AI to routine echocardiograms to detect heart failure with preserved ejection fraction (HFpEF) and cardiac amyloidosis. EchoGo integrates with existing hospital echo workflows and PACS environments; Ultromics publishes no public developer API.
+
+## Products
+
+- [EchoGo Platform](https://www.ultromics.com/about-ultromics-the-platform): Cloud AI analysis of echocardiograms, delivered through clinical systems and PACS
+- [Clinical Evidence](https://www.ultromics.com/clinical-evidence): Published studies backing EchoGo Heart Failure and EchoGo Amyloidosis
+
+## Company
+
+- [Website](https://www.ultromics.com/)
+- [About](https://www.ultromics.com/about-ultromics)
+- [News](https://www.ultromics.com/press-releases)
+- [Contact](https://www.ultromics.com/contact-us)
+
+## Trust & Legal
+
+- [Trust Centre](https://trust.ultromics.com/): ISO/IEC 27001:2022, ISO 13485:2016, HIPAA, GDPR, NHS DSPT
+- [Privacy Notice](https://www.ultromics.com/privacy-notice)
+
+## API Evangelist profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/ultromics/refs/heads/main/apis.yml): Machine-readable profile of Ultromics in the API Evangelist network
