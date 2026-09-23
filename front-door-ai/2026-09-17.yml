@@ -1,0 +1,27 @@
+# Front Door AI Index — ultromics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ultromics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.ultromics.com
+  final_host: www.ultromics.com
+  ownership: own
+  owner: ultromics
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 29
+  host_score: 29
+  density: 11.67
+  words: 2484
+  tiers:
+    agentic: 2
+    core: 27
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 27
+    prompts: 2
+    intelligence: 1
