@@ -40,6 +40,49 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-medtech.py
   first_seen: '2026-10-18'
+- partner_name: FDA establishment registration and device listing (radiology / cardiovascular / robotic surgery)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm
+  category: FDA-registered device establishment
+  contract_reference:
+    register: openFDA device/registrationlisting (owner/operator; specialties Radiology + Cardiovascular, product
+      code NAY)
+    standard: FDA establishment registration and device listing (21 CFR 807)
+    spec_file: null
+    role: fda-registered-owner-operator
+    registered_name: Ultromics, Ltd.
+    matched_domain: ultromics.com
+    matched_by: domain
+    detected_by: sweep-fda-device-establishment-registrations.py
+    detected: '2026-10-23'
+    listed_specialties:
+    - Cardiovascular
+    - Radiology
+    specialty_tags:
+    - cardiovascular
+    - radiology
+    owner_country: GB
+    fei_sample:
+    - '3016585383'
+    product_codes_sample:
+    - QIH
+    - QUO
+    - SDJ
+    - POK
+    - LMD
+    nuclear_medicine_codes: []
+    signal_note: 'REGULATED through the establishment registration: a registration is not a clearance, so no certified_products;
+      specialties / product codes are context, never counted. Complements ivd-diagnostics'' registration edge (eight
+      other specialties)'
+    identity: wikidata Q140045825 'Ultromics, Ltd. (United Kingdom)' P856 https://www.ultromics.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-fda-device-establishment-registrations.py
+  first_seen: '2026-10-23'
 generated: '2026-10-18'
 method: searched
 source:
@@ -48,3 +91,5 @@ source:
 checked:
 - https://lantern.healthit.gov/api/daily/download
 - https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices
+- https://api.fda.gov/device/classification.json
+- https://api.fda.gov/device/registrationlisting.json
