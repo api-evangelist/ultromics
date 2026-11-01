@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ultromics is a company surfaced as a portfolio company of gv and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Ultromics is a UK-based clinical AI company, spun out of the University of Oxford and backed by GV, whose EchoGo platform applies FDA 510(k)-cleared AI to routine echocardiograms to help clinicians detect heart failure with preserved ejection fraction (HFpEF) and cardiac amyloidosis. EchoGo integrates into existing hospital echo workflows and PACS environments, delivering results through clinical systems rather than a public developer API.
 
-Backed by: gv — http://ultromics.com
+**Areas:** Company · Artificial Intelligence · Healthcare · Cardiology · Echocardiography · Medical Imaging · Diagnostics
+
+## Ultromics on APIs.io
+
+Everything profiled for Ultromics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ultromics/](https://apis.io/providers/ultromics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ultromics Domain Security](https://apis.io/security/ultromics/ultromics-domain-security/)
+- [Ultromics Trust Center](https://apis.io/security/ultromics/ultromics-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ultromics.com/)
+- [Support](https://ultromics.haloitsm.com/auth/Account/Login)
+- [Blog](https://www.ultromics.com/articles)
+- [Compliance](https://trust.ultromics.com/)
+- [Privacy policy](https://www.ultromics.com/privacy-notice)
+- [GitHub](https://github.com/ultromics)
+
+## API Evangelist rating
+
+**Kin Score 15.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ultromics/](https://apis.io/providers/ultromics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ultromics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ultromics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
